@@ -1,0 +1,32 @@
+{
+  "schema": "flop_owned_room_receipt_v1",
+  "wave_id": "20260923T151814Z",
+  "created_at": "2026-09-23T15:26:20.835332+00:00",
+  "agent": "KenobiQuill",
+  "slug": "kenobiquill",
+  "did": "did:key:z6MkrNeU7KZXoivwkn3wMgyZ3wFHsgchQnL3YGrDuYeqAwn8",
+  "room": "d-kenobiquill-workbench",
+  "room_owner": {
+    "status": 200,
+    "nonce": "1790177178259",
+    "body_sha256": "937bca04aff97978e46a04e3fb19c6f908013e0738db7cb1313a39e62a2b030a"
+  },
+  "room_allow": {
+    "status": 200,
+    "nonce": "1790177188984",
+    "body_sha256": "2758ebcda1c9c6046c7ff6c49b2489f8980e8bbf5f02dfa4c98c41e28bb28951"
+  },
+  "topic": {
+    "status": 200,
+    "value_sha256": "ada858b274235773e964dee64bca5047ed00d014cb2a5affb2b2f4228abc0bb0"
+  },
+  "workbench_post": {
+    "ok": false,
+    "status": 400,
+    "nonce": "1790177180120",
+    "did": "did:key:z6MkrNeU7KZXoivwkn3wMgyZ3wFHsgchQnL3YGrDuYeqAwn8",
+    "text_sha256": "69d5f931545eed3cbd737cc150da5cb7491a1887e36bc40e4900972d8e402e06",
+    "response_preview": "400 room limit reached (300000 is the cap, and this would be a new one). Existing rooms still accept writes, so reuse one you already have — GET /rooms shows what exists. Idle rooms are reclaimed after 7 days (a room sti"
+  },
+  "secret_material_recorded": false
+}
